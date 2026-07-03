@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honda SSO Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">H</div>
+          <div>
+            <div class="brand-title">HONDA SSO</div>
+            <div class="brand-subtitle">Employee Portal</div>
+          </div>
+        </div>
+
+        <nav class="nav-menu" aria-label="Primary navigation">
+          <div class="nav-item">
+            <a href="#" class="nav-link active">Home</a>
+            <div class="nav-dropdown" aria-label="Home submenu">
+              <div class="nav-group">
+                <div class="nav-subheading">Overview</div>
+                <div class="nav-nestedheading">Dashboard View</div>
+                <a href="#">Home Dashboard</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#" class="nav-link" id="essMenuToggle" aria-expanded="false">Employee Self Services</a>
+            <div class="nav-dropdown" aria-label="Employee Self Services submenu">
+              <div class="nav-group nav-simple-list">
+                <a href="#">Sample 1</a>
+                <a href="#">Sample 2</a>
+                <a href="#">Sample 3</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#" class="nav-link">General</a>
+            <div class="nav-dropdown" aria-label="General submenu">
+              <div class="nav-group">
+                <div class="nav-subheading">Information</div>
+                <div class="nav-nestedheading">Company Notices</div>
+                <a href="#">Company Updates</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#" class="nav-link">Policies</a>
+            <div class="nav-dropdown" aria-label="Policies submenu">
+              <div class="nav-group">
+                <div class="nav-subheading">Guidelines</div>
+                <div class="nav-nestedheading">Policy Reference</div>
+                <a href="#">Policy Library</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+            <div class="nav-dropdown" aria-label="Services submenu">
+              <div class="nav-group">
+                <div class="nav-subheading">Support</div>
+                <div class="nav-nestedheading">Service Desk</div>
+                <a href="#">Service Requests</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#" class="nav-link">Admin</a>
+            <div class="nav-dropdown" aria-label="Admin submenu">
+              <div class="nav-group">
+                <div class="nav-subheading">Control Center</div>
+                <div class="nav-nestedheading">Access Management</div>
+                <a href="#">Admin Console</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <a href="#" class="nav-link">Module</a>
+            <div class="nav-dropdown" aria-label="Module submenu">
+              <div class="nav-group">
+                <div class="nav-subheading">Modules</div>
+                <div class="nav-nestedheading">Module Directory</div>
+                <a href="#">Module Library</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="topbar-actions">
+          <label class="search-pill" aria-label="Search menu">
+            <span class="search-icon">⌕</span>
+            <input type="text" placeholder="Search for Menu" />
+          </label>
+          <button class="icon-btn" id="profileBtn" aria-label="Profile menu">◔</button>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="left-rail">
+          <div class="panel announcements-panel">
+            <div class="panel-title">ANNOUNCEMENTS</div>
+
+            <article class="announcement-item">
+              <div class="avatar avatar-a">TM</div>
+              <div class="announcement-copy">
+                <strong>Toshiro Mibe</strong>
+                <span>Global Honda President</span>
+                <p>Toshiro Mibe San 103Ki Message</p>
+              </div>
+              <span class="launch">↗</span>
+            </article>
+
+            <article class="announcement-item">
+              <div class="avatar avatar-b">TO</div>
+              <div class="announcement-copy">
+                <strong>Tsutsumu Otani</strong>
+                <span>HMSI President</span>
+                <p>Tsutsumu Otani San 103Ki Message</p>
+              </div>
+              <span class="launch">↗</span>
+            </article>
+          </div>
+
+          <div class="panel card panel-canvas">
+            <div class="card-head">
+              <div class="card-label big">CANVAS</div>
+              <div class="card-badges">
+                <span>⌂</span>
+                <span>▢</span>
+              </div>
+            </div>
+            <div class="volume-grid">
+              <a href="#">Volume - 24</a>
+              <a href="#">Volume - 22</a>
+              <a href="#">Volume - 23</a>
+              <a href="#">Volume - 21</a>
+            </div>
+          </div>
+
+          <div class="panel card panel-csr">
+            <div class="card-head">
+              <div class="card-label big">CSR</div>
+              <div class="card-badges single">▢</div>
+            </div>
+            <p class="csr-sub">ANNUAL REPORT 2025</p>
+            <div class="csr-box">
+              <div class="qr"></div>
+              <div>
+                <div class="csr-title">Watch the video on Honda India Foundation's</div>
+                <div class="csr-note">impact stories and sustainability work</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="center-stage">
+          <div class="hero-panel panel">
+            <div class="hero-carousel">
+              <div class="hero-slide active" data-slide="0">
+                <div class="hero-copy">
+                  <p class="eyebrow">Welcome to the Honda employee portal</p>
+                  <h1>One place for announcements, services, and daily work tools.</h1>
+                  <p>
+                    Find people, check policy updates, and jump into the most used
+                    internal services without leaving the home dashboard.
+                  </p>
+                </div>
+                <div class="hero-art art-a"></div>
+              </div>
+
+              <div class="hero-slide" data-slide="1">
+                <div class="hero-copy">
+                  <p class="eyebrow">Latest updates</p>
+                  <h1>Track circulars, events, and internal resources in one view.</h1>
+                  <p>
+                    The center area can switch between banners so you can surface new
+                    content without changing the page layout.
+                  </p>
+                </div>
+                <div class="hero-art art-b"></div>
+              </div>
+
+              <div class="hero-slide" data-slide="2">
+                <div class="hero-copy">
+                  <p class="eyebrow">Service access</p>
+                  <h1>Fast shortcuts to requests, approvals, and travel support.</h1>
+                  <p>
+                    This version keeps the layout close to the screenshot while adding
+                    live slide controls and responsive behavior.
+                  </p>
+                </div>
+                <div class="hero-art art-c"></div>
+              </div>
+            </div>
+
+            <div class="carousel-controls" aria-label="Carousel controls">
+              <button class="circle-btn" id="prevSlide" aria-label="Previous slide">←</button>
+              <button class="circle-btn primary" id="toggleSlide" aria-label="Pause or play slides">⏸</button>
+              <button class="circle-btn" id="nextSlide" aria-label="Next slide">→</button>
+            </div>
+          </div>
+
+          <div class="panel people-panel">
+            <div class="section-head">
+              <h2>PEOPLE SEARCH</h2>
+            </div>
+            <div class="search-row">
+              <input id="peopleSearch" type="text" placeholder="Enter Employee Code or Name" />
+              <button class="search-button" id="searchPeople">⌕</button>
+              <button class="search-button secondary" id="searchAdvanced">⌕</button>
+            </div>
+            <div class="people-results" id="peopleResults">
+              <span>View all</span>
+            </div>
+          </div>
+
+          <div class="panel webinar-panel">
+            <div class="section-head">
+              <h2>WEBINAR</h2>
+            </div>
+            <div class="empty-state">No webinar found</div>
+          </div>
+        </section>
+
+        <aside class="right-rail">
+          <div class="panel tasks-panel">
+            <div class="panel-title">MY TASKS</div>
+
+            <div class="task-item">
+              <div class="task-icon">◫</div>
+              <div class="task-label">Things To Do</div>
+              <div class="task-count" data-count="4">4</div>
+            </div>
+            <div class="task-item">
+              <div class="task-icon">☰</div>
+              <div class="task-label">My Requests</div>
+              <div class="task-count" data-count="29">29</div>
+            </div>
+            <div class="task-item">
+              <div class="task-icon">◔</div>
+              <div class="task-label">Approvals</div>
+              <div class="task-count" data-count="0">0</div>
+            </div>
+          </div>
+
+          <div class="panel links-panel">
+            <div class="panel-title">QUICK LINKS</div>
+            <div class="links-grid">
+              <button class="link-card"><span>◌</span><strong>External Portals</strong></button>
+              <button class="link-card"><span>▣</span><strong>Approval Note</strong></button>
+              <button class="link-card"><span>↗</span><strong>Raise SW Request</strong></button>
+              <button class="link-card"><span>✈</span><strong>Tour Request</strong></button>
+              <button class="link-card"><span>▤</span><strong>Tour Bill Request</strong></button>
+              <button class="link-card"><span>⌂</span><strong>Tour Bill Settlement</strong></button>
+              <button class="link-card"><span>◰</span><strong>Dreamers Cafe Menu</strong></button>
+              <button class="link-card"><span>☕</span><strong>Dreamers Cafe</strong></button>
+              <button class="link-card"><span>🍽</span><strong>A la carte Booking</strong></button>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="status-bar">
+        <div>EMERGENCY INFO</div>
+        <div>Medical - +911246712811</div>
+        <div>Transport - +917042125597</div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
